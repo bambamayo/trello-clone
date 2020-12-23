@@ -70,6 +70,7 @@ box-shadow: none;
 color: #fff;
 padding: 6px 12px;
 text-align: center;
+cursor: pointer;
 `
 export const NewItemInput = styled.input`
 border-radius: 3px;
@@ -78,4 +79,8 @@ box-shadow: #091e4240 0px 1px 0px 0px;
 margin-bottom: 0.5rem;
 padding: 0.5rem 1rem;
 width: 100%;
+
+&:focus {
+  outline-color: #3179ba;
+}
 `
